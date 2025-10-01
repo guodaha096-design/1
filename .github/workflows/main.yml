@@ -1,0 +1,10 @@
+name: Hello Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 打招呼
+        run: echo "你好，我的第一个GitHub工作流运行成功啦！"
